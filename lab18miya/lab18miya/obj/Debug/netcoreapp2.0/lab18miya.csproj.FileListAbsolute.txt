@@ -1,0 +1,11 @@
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\bin\Debug\netcoreapp2.0\lab18miya.deps.json
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\bin\Debug\netcoreapp2.0\lab18miya.runtimeconfig.json
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\bin\Debug\netcoreapp2.0\lab18miya.runtimeconfig.dev.json
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\bin\Debug\netcoreapp2.0\lab18miya.dll
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.csprojResolveAssemblyReference.cache
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.csproj.CoreCompileInputs.cache
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.AssemblyInfoInputs.cache
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.AssemblyInfo.cs
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\bin\Debug\netcoreapp2.0\lab18miya.pdb
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.dll
+C:\Users\shami\source\repos\Lab18---DatabaseFirst\lab18miya\lab18miya\obj\Debug\netcoreapp2.0\lab18miya.pdb
