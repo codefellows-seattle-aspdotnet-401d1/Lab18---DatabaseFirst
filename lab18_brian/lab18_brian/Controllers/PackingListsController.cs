@@ -17,7 +17,7 @@ namespace lab18_brian.Controllers
         {
             _context = context;    
         }
-
+        [Route("Destination")]
         // GET: PackingLists
         public async Task<IActionResult> Index()
         {
