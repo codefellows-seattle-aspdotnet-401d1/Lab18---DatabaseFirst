@@ -22,6 +22,7 @@ namespace Lab18DatabaseRelation.Controllers
         // GET: Destinations
         public async Task<IActionResult> Index()
         {
+            List<DestinationTravelItem> ItemList = await _context.DestinationTravelItem.Include(d => d.Destination).Include(d => d.TravelItem).ToListAsync();
             return View(await _context.Destinations.ToListAsync());
         }
 

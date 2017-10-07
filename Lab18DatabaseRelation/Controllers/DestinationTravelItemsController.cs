@@ -49,7 +49,7 @@ namespace Lab18DatabaseRelation.Controllers
         // GET: DestinationTravelItems/Create
         public IActionResult Create()
         {
-            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "ID");
+            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "LocationName");
             ViewData["TravelItemID"] = new SelectList(_context.TravelItems, "ID", "ItemName");
             return View();
         }
@@ -67,7 +67,7 @@ namespace Lab18DatabaseRelation.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "ID", destinationTravelItem.DestinationID);
+            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "LocationName", destinationTravelItem.DestinationID);
             ViewData["TravelItemID"] = new SelectList(_context.TravelItems, "ID", "ItemName", destinationTravelItem.TravelItemID);
             return View(destinationTravelItem);
         }
@@ -85,7 +85,7 @@ namespace Lab18DatabaseRelation.Controllers
             {
                 return NotFound();
             }
-            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "ID", destinationTravelItem.DestinationID);
+            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "LocationName", destinationTravelItem.DestinationID);
             ViewData["TravelItemID"] = new SelectList(_context.TravelItems, "ID", "ItemName", destinationTravelItem.TravelItemID);
             return View(destinationTravelItem);
         }
@@ -122,7 +122,7 @@ namespace Lab18DatabaseRelation.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "ID", destinationTravelItem.DestinationID);
+            ViewData["DestinationID"] = new SelectList(_context.Destinations, "ID", "LocationName", destinationTravelItem.DestinationID);
             ViewData["TravelItemID"] = new SelectList(_context.TravelItems, "ID", "ItemName", destinationTravelItem.TravelItemID);
             return View(destinationTravelItem);
         }
