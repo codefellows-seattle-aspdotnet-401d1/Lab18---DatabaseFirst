@@ -9,8 +9,8 @@ namespace TravelPacker.Models
     public class DestinationProducts
     {
         [Key]
+        public int DestinationProductsID { get; set; }
         public int DestinationID { get; set; }
-        [Key]
         public int ProductID { get; set; }
 
         public Destination Destination { get; set; }

@@ -17,5 +17,7 @@ namespace TravelPacker.Models
         public DbSet<TravelPacker.Models.Destination> Destination { get; set; }
 
         public DbSet<TravelPacker.Models.Product> Product { get; set; }
+
+        public DbSet<TravelPacker.Models.DestinationProducts> DestinationProducts { get; set; }
     }
 }
