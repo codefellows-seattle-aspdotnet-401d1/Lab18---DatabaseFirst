@@ -48,8 +48,8 @@ namespace lab18_brian.Controllers
         // GET: PackingListItems/Create
         public IActionResult Create()
         {
-            ViewData["itemID"] = new SelectList(_context.Item, "ID", "ID");
-            ViewData["packinglistID"] = new SelectList(_context.PackingList, "ID", "ID");
+            ViewData["itemID"] = new SelectList(_context.Item, "ID", "Name");
+            ViewData["packinglistID"] = new SelectList(_context.PackingList, "ID", "Name");
             return View();
         }
 
