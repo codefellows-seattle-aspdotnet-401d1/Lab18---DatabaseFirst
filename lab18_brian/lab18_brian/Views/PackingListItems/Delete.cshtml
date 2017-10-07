@@ -1,0 +1,36 @@
+@model lab18_brian.Models.PackingListItems
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PackingListItems</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="packinglistID" />
+        <input type="hidden" asp-for="itemID" />
+        <dt>
+            @Html.DisplayNameFor(model => model.Item)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Item.ID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PackingList)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PackingList.ID)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

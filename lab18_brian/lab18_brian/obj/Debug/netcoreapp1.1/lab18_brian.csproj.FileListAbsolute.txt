@@ -1,0 +1,11 @@
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\bin\Debug\netcoreapp1.1\lab18_brian.deps.json
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\bin\Debug\netcoreapp1.1\lab18_brian.runtimeconfig.json
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\bin\Debug\netcoreapp1.1\lab18_brian.runtimeconfig.dev.json
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\bin\Debug\netcoreapp1.1\lab18_brian.dll
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.csprojResolveAssemblyReference.cache
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.csproj.CoreCompileInputs.cache
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.AssemblyInfoInputs.cache
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.AssemblyInfo.cs
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\bin\Debug\netcoreapp1.1\lab18_brian.pdb
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.dll
+C:\Projects\Lab18DatabaseFirst\lab18_brian\lab18_brian\obj\Debug\netcoreapp1.1\lab18_brian.pdb
