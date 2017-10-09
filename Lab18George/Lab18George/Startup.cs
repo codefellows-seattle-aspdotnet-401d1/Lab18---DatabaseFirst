@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Lab18George.Models;
 
 namespace Lab18George
 {
@@ -23,6 +25,9 @@ namespace Lab18George
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddDbContext<Lab18GeorgeContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Lab18GeorgeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
