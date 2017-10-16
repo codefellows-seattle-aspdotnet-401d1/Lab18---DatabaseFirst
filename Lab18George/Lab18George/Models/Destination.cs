@@ -13,5 +13,7 @@ namespace Lab18George.Models
         public string Name { get; set; }
         public string Country { get; set; }
         public int WeatherID { get; set; }
+
+        public virtual ICollection<Supply> Supplies { get; set; }
     }
 }
